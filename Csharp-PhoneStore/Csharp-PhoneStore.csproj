@@ -98,5 +98,17 @@
   <ItemGroup>
     <None Include="Resources\logo-shop.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting-icons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\review.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
