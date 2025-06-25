@@ -42,6 +42,7 @@
             this.BtnAddFav = new System.Windows.Forms.Button();
             this.BtnAddCart = new System.Windows.Forms.Button();
             this.BtnUserAcc = new System.Windows.Forms.Button();
+            this.textBox1 = new Csharp_PhoneStore.CustomControls.TextBox();
             this.Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -80,7 +81,7 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22.5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1374, 80);
@@ -290,12 +291,32 @@
             this.BtnUserAcc.TabIndex = 4;
             this.BtnUserAcc.UseVisualStyleBackColor = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.textBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.textBox1.BorderSize = 2;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.textBox1.Location = new System.Drawing.Point(816, 214);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Multiline = false;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Padding = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.textBox1.PasswordChar = false;
+            this.textBox1.Size = new System.Drawing.Size(281, 43);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Texts = "";
+            this.textBox1.UnderlinedStyle = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(1374, 774);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Panel2);
             this.Controls.Add(this.Panel1);
             this.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -327,6 +348,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private CustomControls.TextBox textBox1;
     }
 }
 
