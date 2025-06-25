@@ -83,5 +83,20 @@
   <ItemGroup>
     <None Include="Resources\brand-removebg-preview-25.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-fav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-shop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
